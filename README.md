@@ -61,3 +61,4 @@ Contributions are welcome! Please feel free to submit a pull request.
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+<iframe src="https://giphy.com/embed/o7RZbs4KAA6tvM4H6j" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/buymeacoffee-buy-me-a-coffee-support-button-o7RZbs4KAA6tvM4H6j">via GIPHY</a></p>
