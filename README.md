@@ -19,3 +19,53 @@ Install PyYAML using pip:
 
 ```bash
 pip install pyyaml
+```
+## Installation
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/<your-github-username>/EnviroConfig.git
+cd EnviroConfig
+```
+
+## Usage
+Create a YAML configuration file (config.yaml) with your settings:
+
+```yaml
+development:
+  database_url: sqlite:///dev.db
+production:
+  database_url: postgresql://user:password@localhost/prod_db
+```
+
+Use the EnvConfigurator in your application:
+
+```python
+from env_configurator import EnvConfigurator
+
+config = EnvConfigurator('config.yaml')
+database_url = config.get('database_url')
+```
+
+
+## Running Tests
+Ensure you have pytest installed, then run:
+
+```bash
+pytest
+```
+
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+### Additional Notes:
+
+- Replace `<your-github-username>` with your actual GitHub username.
+- Make sure to include a LICENSE file in your repository. The MIT License is a good default choice for open source projects.
+- You might also want to include a `.gitignore` file tailored for Python projects to exclude unnecessary files (like `__pycache__` directories) from your repository.
+
+This template should give you a solid starting point for your GitHub project. Feel free to customize it further based on the specifics of your project and any additional features you plan to add.
