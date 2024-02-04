@@ -67,5 +67,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Replace `<your-github-username>` with your actual GitHub username.
 - Make sure to include a LICENSE file in your repository. The MIT License is a good default choice for open source projects.
 - You might also want to include a `.gitignore` file tailored for Python projects to exclude unnecessary files (like `__pycache__` directories) from your repository.
-
-This template should give you a solid starting point for your GitHub project. Feel free to customize it further based on the specifics of your project and any additional features you plan to add.
